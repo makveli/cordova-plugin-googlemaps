@@ -13,8 +13,10 @@ dependencies {
 }
 
 android {
-  compileSdkVersion 26
-
+  compileSdkVersion 28
+   defaultConfig {
+        multiDexEnabled true
+    }
   packagingOptions {
     exclude 'README'
     exclude 'LICENSE'
